@@ -1,0 +1,14 @@
+{
+    "name":"Problem Picker",
+    "version":"0.0.1",
+    "description":"This is a codeforces extension used to fetch the unsolved problem of any user",
+    "manifest_version":2,
+    "browser_action":{
+        "default_popup":"index.html",
+        "default_icon":"favicon.png"
+    },
+    "icons":{
+        "128":"favicon.png"
+    },
+    "permissions":["activeTab"]
+}
