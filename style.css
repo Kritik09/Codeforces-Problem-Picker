@@ -80,3 +80,9 @@ a:hover{
     background: var(--color-red);
     border-radius: 1rem;
 }
+@media (max-width:624px) {
+    .button__cont{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+}
